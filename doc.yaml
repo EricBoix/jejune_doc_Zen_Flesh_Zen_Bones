@@ -1,0 +1,8 @@
+title: "Zen Flesh, Zen Bones: A Collection of Zen and Pre-Zen Writings"
+authors: ["Paul Reps"]
+year: 1957
+keywords: ["Zen", "Buddhism", "koans", "Pre-Zen", "Japanese Buddhism"]
+
+pdf_file: original_data/1957_-_Paul_Reps_-_Zen_flesh_zen_bones-A_Collection_of_Zen_and_Pre_Zen_Writings_-_Scan_by_OceanofPDF_dot_com.pdf
+markdown_file: result_data/1957_-_Paul_Reps_-_Zen_flesh_zen_bones-A_Collection_of_Zen_and_Pre_Zen_Writings_-_Scan_by_OceanofPDF_dot_com_-_local_converter.md
+sentences_file: result_data/1957_-_Paul_Reps_-_Zen_flesh_zen_bones-A_Collection_of_Zen_and_Pre_Zen_Writings_-_Scan_by_OceanofPDF_dot_com_-_Sentences_as_LangChain_Document.json
