@@ -433,11 +433,13 @@ It was not yet clear to Kusuda how such teaching could remove the fear of death.
 
 ‘My friend told me when one learns Zen one loses his fear of death. Each time I come here all you tell me is to take care of my patients. I know that much. If that is your so-called Zen, I am not going to visit you any more.’
 
-Nan-in smiled and patted the doctor. ‘I have been too strict with you. Let me give you a koan. ‘ He presented Kusuda with Joshu’s Mu to work over, which is the first mind-enlightening problem in the book called The Gateless Gate. Kusuda pondered this problem of Mu (No-thing) for two years. At length he thought he had reached certainty of mind.
+Nan-in smiled and patted the doctor. ‘I have been too strict with you. Let me give you a koan. ‘ He presented Kusuda with Joshu’s Mu to work over, which is the first mind-enlightening problem in the book called The Gateless Gate.
+
+Kusuda pondered this problem of Mu (No-thing) for two years. At length he thought he had reached certainty of mind.
 
 But his teacher commented: “You are not in yet.’
 
-Kusuda continued in concentration for another year and a half. His mind became placid. Problems dissolved. No-thing became the truth. He served his patients well and, without even knowing it, be was free from concern over life and death.
+Kusuda continued in concentration for another year and a half. His mind became placid. Problems dissolved. No-thing became the truth. He served his patients well and, without even knowing it, he was free from concern over life and death.
 
 Then when he visited Nan-in his old teacher just smiled.
 

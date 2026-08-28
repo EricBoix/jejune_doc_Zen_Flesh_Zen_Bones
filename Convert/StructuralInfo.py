@@ -151,14 +151,20 @@ class StructuralInfo(StructuralInfoBase):
             14: {
                 "typo_and_fix": {
                     # Yes there is a lot of extra whitespaces in the original
-                    "typo": "Sometimes    when    becomes",
-                    "fix": "Sometimes when he becomes",
+                    "typo": "Sometimes     when     becomes     thoroughly", 
+                    "fix": "Sometimes when he becomes thoroughly",
                 },
             },
             15: {
                 "typo_and_fix": {
                     "typo": "utterly ashamed",
                     "fix": "utterly ashamed.",
+                },
+            },
+            34: {
+                "typo_and_fix": {
+                    "typo": "be  was  free",
+                    "fix": "he was free",
                 },
             },
             45: {"drop_page": True},  # Empty page

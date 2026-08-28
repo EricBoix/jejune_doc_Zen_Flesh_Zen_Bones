@@ -7,5 +7,6 @@
             "addWords": true
         },
         "zen_flesh_zen_bones": true
-    }
+    },
+    "markdown.extension.toc.levels": "2..3"
 }
