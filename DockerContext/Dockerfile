@@ -1,14 +1,14 @@
 FROM python:3.10-buster
 
 RUN set -ex \
-    && git clone https://github.com/EricBoix/jj_doc_Zen_Flesh_Zen_Bones.git \
+    && git clone https://github.com/EricBoix/jejune_doc_Zen_Flesh_Zen_Bones.git \
     # Rename archive for clear context when debugging/fixing in container
-    && mv jj_doc_Zen_Flesh_Zen_Bones/ jj_doc_Zen_Flesh_Zen_Bones.git
+    && mv jejune_doc_Zen_Flesh_Zen_Bones/ jejune_doc_Zen_Flesh_Zen_Bones.git
     # FIXME: we should be pinning the version with e.g.
-    # && cd jj_doc_Zen_Flesh_Zen_Bones.git \
+    # && cd jejune_doc_Zen_Flesh_Zen_Bones.git \
     # && git checkout 444b50086c
 
-WORKDIR /jj_doc_Zen_Flesh_Zen_Bones.git/Convert
+WORKDIR /jejune_doc_Zen_Flesh_Zen_Bones.git/Convert
 RUN set -ex && pip install --root-user-action=ignore -r requirements.txt
 
 RUN set -ex && pip install --root-user-action=ignore -r requirements-dev.txt
