@@ -99,6 +99,9 @@ def convert():
 
 if __name__ == "__main__":
     args = parse_arguments()
+    if args.output_directory and not os.path.isdir(args.output_directory):
+        print(f"Output directory not found: {args.output_directory!r}")
+        sys.exit(1)
     if args.test:
         import subprocess
         result = subprocess.run(["pytest", "test_main.py"])
