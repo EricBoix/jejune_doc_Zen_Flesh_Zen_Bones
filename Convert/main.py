@@ -6,7 +6,6 @@ from Converter import Converter
 from StructuralInfo import StructuralInfo
 from pdf_to_markdown import (
     PrintDocument,
-    WriteAsLangchainDocuments,
     print_document_raw_pages,
     set_warning_mode,
     set_debug_mode,
@@ -51,20 +50,9 @@ def move_outputs_to_output_dir(output_dir):
         "1957_-_Paul_Reps_-_Zen_flesh_zen_bones-A_Collection_of_Zen_and_Pre_Zen_Writings_-_Scan_by_OceanofPDF_dot_com_-_local_converter.md",
     )
     shutil.move(converted_markdown_source, converted_markdown_target)
-    sentences_source = os.path.join(input_dir, "Sentences_as_LangChain_Document.json")
-    if not os.path.exists(sentences_source):
-        print(f"Sentences output file ({sentences_source}) not found. Exiting.")
-        sys.exit()
-
-    sentences_target = os.path.join(
-        output_dir,
-        "1957_-_Paul_Reps_-_Zen_flesh_zen_bones-A_Collection_of_Zen_and_Pre_Zen_Writings_-_Scan_by_OceanofPDF_dot_com_-_Sentences_as_LangChain_Document.json",
-    )
-    shutil.move(sentences_source, sentences_target)
     if DEBUG:
-        print("Following files moved to output:")
+        print("Following file moved to output:")
         print(f"  - {converted_markdown_target}")
-        print(f"  - {sentences_target}")
 
 
 def convert():
@@ -90,11 +78,6 @@ def convert():
     if True:
         printer = PrintDocument(document)
         printer.with_subchapter_sentences()
-
-    if True:
-        WriteAsLangchainDocuments(document).write_sentences(
-            "Sentences_as_LangChain_Document.json"
-        )
 
 
 if __name__ == "__main__":
