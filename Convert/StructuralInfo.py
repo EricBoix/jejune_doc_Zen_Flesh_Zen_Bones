@@ -151,7 +151,7 @@ class StructuralInfo(StructuralInfoBase):
             14: {
                 "typo_and_fix": {
                     # Yes there is a lot of extra whitespaces in the original
-                    "typo": "Sometimes     when     becomes     thoroughly", 
+                    "typo": "Sometimes  when  becomes  thoroughly",
                     "fix": "Sometimes when he becomes thoroughly",
                 },
             },
@@ -161,13 +161,123 @@ class StructuralInfo(StructuralInfoBase):
                     "fix": "utterly ashamed.",
                 },
             },
-            34: {
+            23: {
+                "typo_and_fix": [
+                    {
+                        # Missing leading quote (extra whitespaces in the original)
+                        "typo": "I  am  not  going  to-be  alive",
+                        "fix": "'I am not going to-be alive",
+                    },
+                    {
+                        # Missing trailing quote
+                        "typo": "seven  days\nfrom now.",
+                        "fix": "seven days from now.'",
+                    },
+                ],
+            },
+            25: {
+                "typo_and_fix": [
+                    {
+                        "typo": "to  be\ntreated so unjustly.",
+                        "fix": "to be treated so unjustly.'",
+                    },
+                    {
+                        "typo": "I  might  decide  to  do",
+                        "fix": "'I might decide to do",
+                    },
+                ],
+            },
+            29: {
                 "typo_and_fix": {
-                    "typo": "be  was  free",
-                    "fix": "he was free",
+                    "typo": "especially  not",
+                    "fix": "'especially not",
                 },
             },
+            30: {
+                "typo_and_fix": {
+                    "typo": "The funeral ceremony",
+                    "fix": "'The funeral ceremony",
+                },
+            },
+            33: {
+                "typo_and_fix": {
+                    "typo": "“I will try it.",
+                    "fix": "'I will try it.",
+                },
+            },
+            34: {
+                "typo_and_fix": [
+                    {
+                        "typo": "be was free",
+                        "fix": "he was free",
+                    },
+                    {
+                        "typo": "“You are",
+                        "fix": "'You are",
+                    },
+                ]
+            },
+            36: {
+                "typo_and_fix": {
+                    "typo": "That is not good",
+                    "fix": "'That is not good",
+                },
+            },
+            37: {
+                "typo_and_fix": {
+                    "typo": "hue realization",
+                    "fix": "true realization",
+                },
+            },
+            38: {
+                "typo_and_fix": {
+                    "typo": "That will never",
+                    "fix": "'That will never",
+                },
+            },
+            39: {
+                "typo_and_fix": {
+                    "typo": "explained  later.’",
+                    "fix": "explained later, ’",
+                },
+            },
+            41: {
+                "typo_and_fix": {
+                    "typo": "Zennun",
+                    "fix": "Zen nun",
+                },
+            },
+            44: {
+                "typo_and_fix": [
+                    {
+                        "typo": "“I understand",
+                        "fix": "'I understand",
+                    },
+                    {
+                        "typo": "bur he",
+                        "fix": "but he",
+                    },
+                ]
+            },
             45: {"drop_page": True},  # Empty page
+            49: {
+                "typo_and_fix": [
+                    {
+                        "typo": "Tell him to",
+                        "fix": "'Tell him to",
+                    },
+                    {
+                        "typo": "see that fellow.",
+                        "fix": "see that fellow.'",
+                    },
+                ]
+            },
+            50: {
+                "typo_and_fix": {
+                    "typo": "“You  cannot",
+                    "fix": "'You cannot",
+                },
+            },
             67: {"drop_page": True},  # Empty page
             87: {"drop_page": True},  # Empty page
             125: {"paragraph_fits_on_page": True},
