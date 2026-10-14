@@ -149,6 +149,7 @@ Define a convenience variable for the results directory:
 
 ```bash {"name":"jejune-cli-env-setup","terminalRows":"1"}
 export RESULTS_DIR=`pwd`/result_data
+export RADICAL=1957_-_Paul_Reps_-_Zen_flesh_zen_bones-A_Collection_of_Zen_and_Pre_Zen_Writings_-_Scan_by_OceanofPDF_dot_com_-_
 ```
 
 Prepare the graph extraction by generating the various chunks with the splitters
@@ -197,7 +198,8 @@ jejune neo4j dump $RESULTS_DIR neo4j.ZenFleshZenBones.Paragraphs.dump
 ```
 
 ```bash {"name":"jejune-cli-graph-convert-ttl-paragraphs"}
-jejune neo4j dump-turtle $RESULTS_DIR ZenFleshZenBones.Paragraphs.ttl
+jejune neo4j dump-turtle $RESULTS_DIR Temporary.Paragraphs.ttl
+mv $RESULTS_DIR/Temporary.Paragraphs.*.ttl $RESULTS_DIR/${RADICAL}Paragraphs.`jejune neo4j llm`.ttl
 jejune neo4j stop
 ```
 
@@ -217,6 +219,7 @@ jejune neo4j dump $RESULTS_DIR neo4j.ZenFleshZenBones.Headers.dump
 ```
 
 ```bash {"name":"jejune-cli-graph-convert-ttl-headers"}
-jejune neo4j dump-turtle $RESULTS_DIR ZenFleshZenBones.Headers.ttl
+jejune neo4j dump-turtle $RESULTS_DIR Temporary.Headers.ttl
+mv $RESULTS_DIR/Temporary.Headers.*.ttl $RESULTS_DIR/${RADICAL}Headers.`jejune neo4j llm`.ttl
 jejune neo4j stop
 ```
