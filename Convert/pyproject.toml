@@ -1,0 +1,20 @@
+[project]
+name = "convert-zen-flesh-zen-bones"
+version = "0.1.0"
+description = "Converts the Zen Flesh, Zen Bones PDF into sanitized markdown"
+requires-python = ">=3.15"
+dependencies = [
+    "pdf-to-markdown",
+]
+
+[tool.uv]
+package = false
+
+[tool.uv.sources]
+pdf-to-markdown = { git = "https://github.com/EricBoix/pdf-to-markdown.git" }
+
+[dependency-groups]
+dev = [
+    "black",
+    "pytest",
+]

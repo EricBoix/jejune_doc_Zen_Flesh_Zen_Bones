@@ -1,4 +1,4 @@
-FROM python:3.10-buster
+FROM python:3.15
 
 RUN set -ex \
     && git clone https://github.com/EricBoix/jejune_doc_Zen_Flesh_Zen_Bones.git \
@@ -9,8 +9,12 @@ RUN set -ex \
     # && git checkout 444b50086c
 
 WORKDIR /jejune_doc_Zen_Flesh_Zen_Bones.git/Convert
-RUN set -ex && pip install --root-user-action=ignore -r requirements.txt
+RUN set -ex && pip install --root-user-action=ignore uv
 
-RUN set -ex && pip install --root-user-action=ignore -r requirements-dev.txt
+# Installs the locked dependencies, including the tools for running tests
+RUN set -ex && uv sync --frozen
 
-ENTRYPOINT ["python3", "./main.py"]
+# Systematically run tests at build time (fail often, fail early)
+RUN set -ex && uv run --frozen pytest
+
+ENTRYPOINT ["uv", "run", "--frozen", "main.py"]

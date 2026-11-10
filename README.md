@@ -6,10 +6,21 @@ This repository holds code dedicated to extracting some knowledge graph out of t
 ## Table of contents<!-- omit from toc -->
 
 - [Notes concerning the original book](#notes-concerning-the-original-book)
+  - [References](#references)
+  - [Book peculiarities](#book-peculiarities)
 - [Running the PDF converter with python](#running-the-pdf-converter-with-python)
+  - [Virtual environment set up](#virtual-environment-set-up)
+  - [Running the converter](#running-the-converter)
+  - [Testing the conversion results](#testing-the-conversion-results)
+  - [Developers: updating/overwriting the result\_data contents](#developers-updatingoverwriting-the-result_data-contents)
 - [Running the PDF converter with docker](#running-the-pdf-converter-with-docker)
 - [Running the PDF converter with jejune\_cli](#running-the-pdf-converter-with-jejune_cli)
+  - [Setting up jejune\_cli context](#setting-up-jejune_cli-context)
+  - [Running the converter (with jejune\_cli)](#running-the-converter-with-jejune_cli)
 - [Running the data workflow with jejune\_cli](#running-the-data-workflow-with-jejune_cli)
+  - [Running Knowledge Graph extraction with a sentence granularity](#running-knowledge-graph-extraction-with-a-sentence-granularity)
+  - [Running Knowledge Graph extraction with a paragraph granularity](#running-knowledge-graph-extraction-with-a-paragraph-granularity)
+  - [Running Knowledge Graph extraction with a markdown header granularity](#running-knowledge-graph-extraction-with-a-markdown-header-granularity)
 
 ## Notes concerning the original book
 
@@ -37,10 +48,8 @@ This directory holds a copy of the 1957 pdf version of Paul Reps' compilation
 
 ```bash {"name":"python-venv-install","terminalRows":"5"}
 cd `git rev-parse --show-toplevel`/Convert
-python3.10 -m venv venv
-source ./venv/bin/activate
-pip install -r requirements.txt
-python main.py --help
+uv sync
+uv run main.py --help
 ```
 
 ### Running the converter
@@ -49,8 +58,7 @@ Within the above running context (directory and installed virtual environment)
 
 ```bash {"name":"python-venv-run","terminalRows":"5"}
 cd `git rev-parse --show-toplevel`/Convert
-source ./venv/bin/activate
-python main.py
+uv run main.py
 ```
 
 and the markdown default output should be placed in `output.md` file.
@@ -59,11 +67,10 @@ and the markdown default output should be placed in `output.md` file.
 
 ```bash {"name":"python-venv-test","terminalRows":"5"}
 cd `git rev-parse --show-toplevel`/Convert
-source ./venv/bin/activate
-pip install -r requirements-dev.txt
-python main.py --test
+uv sync --group dev
+uv run main.py --test
 # and with a more verbose output:
-pytest -vv test_main.py
+uv run pytest -vv test_main.py
 ```
 
 ### Developers: updating/overwriting the result_data contents
@@ -72,8 +79,7 @@ Once development has improved the resulting converted file, the following comman
 
 ```bash {"name":"python-venv-overwrite-reference","terminalRows":"5"}
 cd `git rev-parse --show-toplevel`/Convert
-source ./venv/bin/activate
-python main.py --output_directory ../result_data/
+uv run main.py --output_directory ../result_data/
 ```
 
 ## Running the PDF converter with docker
