@@ -1138,7 +1138,7 @@ The emperor, observing how worn his garments were, gave Yamaoka some money to bu
 
 'I provided clothes for the children of Your Majesty,' explained Yamaoka.
 
-### 67. What Are You Doing! What Are You Saying!
+### 67. What Are You Doing! What Are You Saying!<!-- markdownlint-disable-line MD026 -->
 
 In modern times a great deal of nonsense is talked about masters and disciples, and about the inheritance of a master's teaching by favorite pupils, entitling them to pass the truth on to their adherents. Of course Zen should be imparted in this way, from heart to heart, and in the past it was really accomplished. Silence and humility reigned rather than profession and assertion. The one who received such a teaching kept the matter hidden even after twenty years. Not until another discovered through his own need that a real master was at hand was it learned that the teaching had been imparted, and even then the occasion arose quite naturally and the teaching made its way in its own right. Under no circumstance did the teacher ever claim 'I am the successor of So-and-so.' Such a claim would prove quite the contrary
 
