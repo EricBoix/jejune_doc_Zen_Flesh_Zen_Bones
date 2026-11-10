@@ -8,5 +8,8 @@
         },
         "zen_flesh_zen_bones": true
     },
+    "cSpell.ignorePaths": [
+        "Convert/StructuralInfo.py",
+    ],
     "markdown.extension.toc.levels": "2..3"
 }

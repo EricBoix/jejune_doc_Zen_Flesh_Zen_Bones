@@ -218,7 +218,7 @@ The same day O-nami entered the wrestling contests and won. After that, no one i
 
 ### 9. The Moon cannot be Stolen
 
-Ryokan, a Zen master, lived the simplest kind of life in a little hut at the foot of a mountain. One evening a thief visited the hut only to discover there was nothing in it to stea1.
+Ryokan, a Zen master, lived the simplest kind of life in a little hut at the foot of a mountain. One evening a thief visited the hut only to discover there was nothing in it to steal.
 
 Ryokan returned and caught him. 'You may have come a long way to visit me,' he told the prowler, 'and you should not return empty-handed. Please take my clothes as a gift.'
 
@@ -378,7 +378,7 @@ His disciples gathered about him, reciting a sutra, and Shoun passed on during t
 
 A university student while visiting Gasan asked him: 'Have you ever read the Christian Bible?'
 
-'No, read it to me,' said Gasan. The student opened the Bible and read from St Mattew: 'And why take ye thought for raiment? Consider the lilies of the field, how they grow. They toil not, neither do they spin, and yet I say unto you that even Solomon in all his glory was not arrayed like one of these. ...Take therefore no thought for the morrow, for the morrow shall take thought for the things of itself.'
+'No, read it to me,' said Gasan. The student opened the Bible and read from St Matthew: 'And why take ye thought for raiment? Consider the lilies of the field, how they grow. They toil not, neither do they spin, and yet I say unto you that even Solomon in all his glory was not arrayed like one of these. ...Take therefore no thought for the morrow, for the morrow shall take thought for the things of itself.'
 
 Gasan said: 'Whoever uttered those words I consider an enlightened man.'
 
@@ -974,11 +974,11 @@ PS. The teaching of Buddha was mainly for the purpose of enlightening others. If
 
 Taiko, a warrior who lived in Japan before the Tokugawa era, studied Cha- no-yu, tea etiquette, with Sen no Rikyu, a teacher of that aesthetical expression of calmness and contentment.
 
-Taiko's attendant warrior Kato interpreted his superior's enthusiasm for tea etiquette as negligence of state affairs, m he decided to kill Sen no Rikyu. He pretended to make a social call upon the tea-master and was invited to drink tea.
+Taiko's attendant warrior Kato interpreted his superior's enthusiasm for tea etiquette as negligence of state affairs, and he decided to kill Sen no Rikyu. He pretended to make a social call upon the tea-master and was invited to drink tea.
 
 The master, who was well skilled in his art, saw at a glance the warrior's intention, so he invited Kato to leave his sword outside before entering the room for the ceremony, explaining that Cha-no-yu represents peacefulness itself.
 
-Kato would wt Isten to this 'I am a warrior,' he said. I always have my sword with me. Cha-no-yu or no Cha-no-yu. I have my sword.'
+Kato would not listen to this. 'I am a warrior,' he said. I always have my sword with me. Cha-no-yu or no Cha-no-yu. I have my sword.'
 
 'Very well. Bring your sword in and have some tea,' consented Sen no Rikyu.
 
@@ -2599,7 +2599,9 @@ SHIVA REPLIES:
 
 105. Enter the sound of your name and, through this sound, all sounds.
 
-106. I am existing. This is mine. This is this. 0 Beloved, even in such know illimitably. 107. This consciousness is the spirit of guidance of each one. Be this one.
+106. I am existing. This is mine. This is this. O beloved, even in such know illimitably.
+
+107. This consciousness is the spirit of guidance of each one. Be this one.
 
 108. Here is a sphere of change, change, change. Through change consume change.
 

@@ -161,6 +161,12 @@ class StructuralInfo(StructuralInfoBase):
                     "fix": "utterly ashamed.",
                 },
             },
+            22: {
+                "typo_and_fix": {
+                    "typo": "stea1.",
+                    "fix": "steal.",
+                },
+            },
             23: {
                 "typo_and_fix": [
                     {
@@ -197,6 +203,12 @@ class StructuralInfo(StructuralInfoBase):
                 "typo_and_fix": {
                     "typo": "The funeral ceremony",
                     "fix": "'The funeral ceremony",
+                },
+            },
+            32: {
+                "typo_and_fix": {
+                    "typo": "St Mattew",
+                    "fix": "St Matthew",
                 },
             },
             33: {
@@ -279,6 +291,18 @@ class StructuralInfo(StructuralInfoBase):
                 },
             },
             67: {"drop_page": True},  # Empty page
+            76: {
+                "typo_and_fix": [
+                    {
+                        "typo": "m  he",
+                        "fix": "and he",
+                    },
+                    {
+                        "typo": "wt Isten to this",
+                        "fix": "not listen to this.",
+                    },
+                ]
+            },
             87: {"drop_page": True},  # Empty page
             125: {"paragraph_fits_on_page": True},
             181: {"paragraph_fits_on_page": True},
@@ -290,6 +314,13 @@ class StructuralInfo(StructuralInfoBase):
                 "typo_and_fix": {
                     "typo": "sound a-u-m without any a or m",
                     "fix": "sound a-u-m without any a or m.",
+                },
+            },
+            205: {
+                "paragraph_fits_on_page": True,
+                "typo_and_fix": {
+                    "typo": "0 Beloved",
+                    "fix": "O beloved",
                 },
             },
             207: {
