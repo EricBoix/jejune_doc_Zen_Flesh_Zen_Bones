@@ -1,11 +1,11 @@
 import os
 import sys
 import shutil
+import logging
 import argparse
 from Converter import Converter
 from StructuralInfo import StructuralInfo
 from pdf_to_markdown import (
-    ConverterConfig,
     PrintDocument,
     print_document_raw_pages,
 )
@@ -28,10 +28,28 @@ def parse_arguments():
         action="store_true",
         help="Run tests instead of converting.",
     )
+    parser.add_argument(
+        "--warnings",
+        action="store_true",
+        help="Report conversion warnings (e.g. typos that cannot be found).",
+    )
+    parser.add_argument(
+        "--debug",
+        action="store_true",
+        help="Report debug traces of the conversion (implies --warnings).",
+    )
 
     args = parser.parse_args()
 
     return args
+
+
+def configure_logging(warnings_enabled, debug_enabled):
+    # The pdf_to_markdown package stays silent unless logging is configured.
+    if debug_enabled:
+        logging.basicConfig(level=logging.DEBUG, format="%(message)s")
+    elif warnings_enabled:
+        logging.basicConfig(level=logging.WARNING, format="%(message)s")
 
 
 def move_outputs_to_output_dir(output_dir):
@@ -65,16 +83,14 @@ def convert():
     if False:
         print_document_raw_pages(pdf_filename)
 
-    converter_config = ConverterConfig(warning_mode=True, debug_mode=True)
     converter = Converter(
         pdf_filename=pdf_filename,
         structural_info=StructuralInfo(),
-        config=converter_config,
     )
     document = converter.get_document()
     document.to_markdown("output.md")
 
-    if True:
+    if False:
         printer = PrintDocument(document)
         printer.with_subchapter_sentences()
 
@@ -86,8 +102,10 @@ if __name__ == "__main__":
         sys.exit(1)
     if args.test:
         import subprocess
+
         result = subprocess.run(["pytest", "test_main.py"])
         sys.exit(result.returncode)
+    configure_logging(args.warnings, args.debug)
     convert()
     if args.output_directory:
         move_outputs_to_output_dir(args.output_directory)
