@@ -30,8 +30,11 @@ This directory holds a copy of the 1957 pdf version of Paul Reps' compilation
 
 ### Book peculiarities
 
-- Within chapter `101 ZEN STORIES`,
+When considering the [book as PDF document](./original_data/1957_-_Paul_Reps_-_Zen_flesh_zen_bones-A_Collection_of_Zen_and_Pre_Zen_Writings_-_Scan_by_OceanofPDF_dot_com.pdf), here are some of its peculiarities
 
+- There is no page numbering
+
+- Within chapter `101 ZEN STORIES`,
   - there are two sub-chapters with number `46.`
   - there is no sub-chapter numbered `49.`
 
