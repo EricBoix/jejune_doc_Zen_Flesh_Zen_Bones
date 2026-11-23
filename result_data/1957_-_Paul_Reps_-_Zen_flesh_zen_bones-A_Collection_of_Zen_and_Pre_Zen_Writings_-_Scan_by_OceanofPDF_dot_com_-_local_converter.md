@@ -66,6 +66,7 @@ The Noh dramas are Zen stories. Zen spirit has come to mean not only peace and u
 It has been said that if you have Zen in your life, you have no fear, no doubt, no unnecessary craving, and no extreme emotion. Neither illiberal attitudes nor egotistical actions trouble you. You serve humanity humbly, fulfilling your presence in this world with loving-kindness and observing your passing as a petal falling from a flower. Serene you enjoy life in blissful tranquility. Such is the spirit of Zen, whose venture is thousands of temples in China and Japan, priests and monks, wealth and prestige, and often the very formalism it would itself transcend.
 
 To study Zen, the flowering of one's nature, is no easy task in any age or civilization. Many teachers, true and false, have purposed to assist others in this accomplishment. It is from innumerable and actual adventures in Zen that these stories have evolved. May the reader in turn realize them in living experience today.
+
 ### 1. A Cup of Tea
 
 Nan-in, a Japanese master during the Meiji era (1868-1912) received a university professor who came to inquire about Zen.
@@ -1578,12 +1579,12 @@ Buddha said:
 
 'I consider the positions of kings and rulers as that of dust motes. I observe treasure of gold and gems as so many bricks and pebbles. I look upon the finest silken robes as tattered rags. I see myriad worlds of the universe as small seeds of fruit, and the greatest lake in India as a drop of oil on my foot. I perceive the teachings of the world to be the illusion of, magicians. I discern the highest conception of emancipation as golden brocade in a dream, and view the holy path of the illuminated one as flowers appearing in one's eyes. I see meditation as a pillar of a mountain, Nirvana as a nightmare of daytime. I look upon the judgment of right and wrong as the serpentine dance of a dragon, and the rise and fall of beliefs as but traces left by the four seasons.'
 
-
 ## THE GATELESS GATE
 
 by Ekai, called Mumon
 
 Transcribed by Nyogen Senzaki and Paul Reps
+
 ### 1. Joshu's Dog
 
 A monk asked Joshu, a Chinese Zen master: "Has a dog Buddha-nature or not?"
@@ -2266,7 +2267,6 @@ Then Amban put his palms together, folded his hands, and said: "Stop, stop. Do n
 
 If anyone tells you fire is light, Pay no attention. When two thieves meet they need no introduction: They recognize each other without question.
 
-
 ## 10 BULLS
 
 by Kakuan
@@ -2274,6 +2274,7 @@ by Kakuan
 Transcribed by Nyogen Senzaki and Paul Reps
 
 Illustrated by Tomikichiro Tokuriki
+
 ### 1. The Search for the Bull
 
 In the pasture of this world, I endlessly push aside the tall grasses in
@@ -2341,7 +2342,6 @@ Comment: From the beginning, truth is clear. Poised in silence, I observe the fo
 Barefooted and naked of breast, I mingle with the people of the world. My clothes are ragged and dust-laden, and I am ever blissful. I use no magic to extend my life; Now, before me, the dead trees become alive.
 
 Comment: Inside my gate, a thousand sages do not know me. The beauty of my garden is invisible. Why should one search for the footprints of the patriarchs? I go to the market place with my wine bottle and return home with my staff. I visit the wineshop and the market, and everyone I look upon becomes enlightened.
-
 
 ## CENTERING
 
@@ -2501,7 +2501,7 @@ SHIVA REPLIES:
 
 56. With mouth slightly open, keep mind in the middle of tongue. Or, as breath comes silently in, feel the sound HH.
 
-57. When on a bed or a seat, let yorself become weightless, beyond mind.
+57. When on a bed or a seat, let yourself become weightless, beyond mind.
 
 58. In a moving vehicle, by rhythmically swaying, experience. Or in a still vehicle, by letting yourself swing in slowing invisible circles.
 

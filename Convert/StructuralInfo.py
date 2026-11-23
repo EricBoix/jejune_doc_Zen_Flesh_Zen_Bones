@@ -309,6 +309,12 @@ class StructuralInfo(StructuralInfoBase):
             182: {"paragraph_fits_on_page": True},
             195: {"paragraph_fits_on_page": True},
             201: {"paragraph_fits_on_page": True},
+            202: {
+                "typo_and_fix": {
+                    "typo": "yorself",
+                    "fix": "yourself",
+                },
+            },
             203: {
                 "paragraph_fits_on_page": True,
                 "typo_and_fix": {

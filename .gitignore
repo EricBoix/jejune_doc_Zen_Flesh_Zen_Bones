@@ -1,3 +1,4 @@
 .env
 Convert/venv/
 .jejune
+.jejune/tmp/
