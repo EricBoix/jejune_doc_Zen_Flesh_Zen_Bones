@@ -7,11 +7,18 @@ ARG PDF_TO_MARKDOWN_SOURCE=locked
 
 FROM python:3.15 AS remote-doc
 
+# Commit of the document to check out (jejune_cli passes the remote HEAD it
+# records in the image label jejune.document-commit); empty: default branch
+ARG DOC_COMMIT=
+
 RUN set -ex \
     && git clone https://github.com/EricBoix/jejune_doc_Zen_Flesh_Zen_Bones.git \
     # Rename archive for clear context when debugging/fixing in container
-    && mv jejune_doc_Zen_Flesh_Zen_Bones/ jejune_doc_Zen_Flesh_Zen_Bones.git
-    # FIXME: we should be pinning the version with e.g.
+    && mv jejune_doc_Zen_Flesh_Zen_Bones/ jejune_doc_Zen_Flesh_Zen_Bones.git \
+    && cd jejune_doc_Zen_Flesh_Zen_Bones.git \
+    && if [ -n "$DOC_COMMIT" ]; then git checkout "$DOC_COMMIT"; fi
+    # The version is pinned when jejune_cli passes DOC_COMMIT (the commit it
+    # labels the image with); else the default branch is built, e.g. with:
     # && cd jejune_doc_Zen_Flesh_Zen_Bones.git \
     # && git checkout 444b50086c
 
