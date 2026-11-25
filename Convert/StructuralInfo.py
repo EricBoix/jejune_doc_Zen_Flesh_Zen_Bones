@@ -70,7 +70,8 @@ class StructuralInfo(StructuralInfoBase):
             #    occurrence of the whitespace character)
             chapter_number_pattern = r"\d+\.[ ]?"
             # 2. the name of the chapter per se
-            chapter_name_pattern = r"[A-Za-z-’|?|!|,| ]+"
+            # (The text of the pages is plain ASCII, see TextExtractor)
+            chapter_name_pattern = r"[A-Za-z-'|?|!|,| ]+"
             # 3. the two trailing return
             chapter_name_trailing_returns = r"\n\n"
 
@@ -213,7 +214,7 @@ class StructuralInfo(StructuralInfoBase):
             },
             33: {
                 "typo_and_fix": {
-                    "typo": "“I will try it.",
+                    "typo": '"I will try it.',
                     "fix": "'I will try it.",
                 },
             },
@@ -224,7 +225,7 @@ class StructuralInfo(StructuralInfoBase):
                         "fix": "he was free",
                     },
                     {
-                        "typo": "“You are",
+                        "typo": '"You are',
                         "fix": "'You are",
                     },
                 ]
@@ -249,8 +250,8 @@ class StructuralInfo(StructuralInfoBase):
             },
             39: {
                 "typo_and_fix": {
-                    "typo": "explained  later.’",
-                    "fix": "explained later, ’",
+                    "typo": "explained  later.'",
+                    "fix": "explained later, '",
                 },
             },
             41: {
@@ -262,7 +263,7 @@ class StructuralInfo(StructuralInfoBase):
             44: {
                 "typo_and_fix": [
                     {
-                        "typo": "“I understand",
+                        "typo": '"I understand',
                         "fix": "'I understand",
                     },
                     {
@@ -286,7 +287,7 @@ class StructuralInfo(StructuralInfoBase):
             },
             50: {
                 "typo_and_fix": {
-                    "typo": "“You  cannot",
+                    "typo": '"You  cannot',
                     "fix": "'You cannot",
                 },
             },
