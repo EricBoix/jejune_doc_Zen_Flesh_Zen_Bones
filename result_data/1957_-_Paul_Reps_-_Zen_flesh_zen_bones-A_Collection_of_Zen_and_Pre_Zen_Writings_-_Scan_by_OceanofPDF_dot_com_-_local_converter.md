@@ -113,9 +113,11 @@ The man was delighted. He drank the wine at once and laid himself down on the fl
 
 In the morning when the husband awoke he had forgotten about the previous night. 'Who are you? Where do yon come from?' he asked Gudo, who still was meditating.
 
-'I am Gudo of Kyoto and I am going on to Edo,' replied the Zen master. The man was utterly ashamed.
+'I am Gudo of Kyoto and I am going on to Edo,' replied the Zen master.
+
 <!-- page reader=15 pdf=16 -->
-He apologized profusely to the teacher of his emperor.
+
+The man was utterly ashamed. He apologized profusely to the teacher of his emperor.
 
 Gudo smiled. 'Everything in this life is impermanent' he explained. 'Life is very brief. If you keep on gambling and drinking yon will have no time left to accomplish anything else, and you will cause your family to suffer too.'
 
@@ -325,9 +327,11 @@ In this particular temple the wife of the head priest became jealous of Shunkai'
 
 Shunkai the same night with a can of kerosene set fire to the five hundred year old temple and burned it to the ground. In the morning she found herself in the hands of the police.
 
-A young lawyer became interested in her and endeavored to make her sentence lighter. 'Do not help me,' she told him. 'I might decide to do something else which would only imprison me again.' At last a sentence of seven years was completed, and Shunkai was released from the prison, where the sixty-three-year-old warden also had become enamored of her.
+A young lawyer became interested in her and endeavored to make her sentence lighter. 'Do not help me,' she told him. 'I might decide to do something else which would only imprison me again.'
 
 <!-- page reader=26 pdf=27 -->
+
+At last a sentence of seven years was completed, and Shunkai was released from the prison, where the sixty-three-year-old warden also had become enamored of her.
 
 But now everyone looked upon her as a 'jailbird'. No one would associate with her. Even the Zen people, who are supposed to believe in enlightenment in this life and with this body, shunned her. Zen, Shunkai found, was one thing and the followers of Zen quite another. Her relatives would have nothing to do with her. She grew sick, poor, and weak.
 
@@ -1039,7 +1043,11 @@ Sixty-six times have these eyes beheld the changing scene of autumn.
 
 I have had enough about moonlight,
 
-Ask no more. Only listen to the voice of pines and cedars when no wind stirs.
+Ask no more.
+
+<!-- page reader=71 pdf=72 -->
+
+Only listen to the voice of pines and cedars when no wind stirs.
 
 <!-- page reader=72 pdf=73 -->
 
@@ -1862,9 +1870,11 @@ That evening Hyakujo gave a talk to the monks and told them this story about the
 
 Obaku, upon hearing the story, asked Hyakujo: "I understand that a long time ago because a certain person gave a wrong Zen answer he became a fox for five hundred rebirths. Now I want to ask: If some modern master is asked many questions and he always gives the right answer, what will become of him?"
 
-Hyakujo said: "You come here near me and I will tell you." Obaku went near Hyakujo and slapped the teacher's face with his hand, for he knew this was the answer his teacher intended to give him.
+Hyakujo said: "You come here near me and I will tell you."
 
 <!-- page reader=130 pdf=131 -->
+
+Obaku went near Hyakujo and slapped the teacher's face with his hand, for he knew this was the answer his teacher intended to give him.
 
 Hyakujo clapped his hands and laughed at this discernment. "I thought a Persian had a red beard," he said, "and now I know a Persian who has a red beard."
 
@@ -2740,7 +2750,11 @@ Machines, ledgers, dancers, athletes balance. Just as centering or balance augme
 
 If we are conscious in part, this implies more inclusive consciousness. Have you a hand? Yes. That you know without doubt. But until asked the question were you cognizant of the hand apart?
 
-Surely men as inspiritors, known and unknown to the world, have shared a common uncommon discovery. The Tao of Lao-tse, Nirvana of Buddha, Jehovah of Moses, the Father of Jesus, the Allah of Mohammed -- all point to the experience. No-thing-ness, spirit--once touched, the whole life clears.
+Surely men as inspiritors, known and unknown to the world, have shared a common uncommon discovery. The Tao of Lao-tse, Nirvana of Buddha, Jehovah of Moses, the Father of Jesus, the Allah of Mohammed -- all point to the experience.
+
+<!-- page reader=197 pdf=198 -->
+
+No-thing-ness, spirit--once touched, the whole life clears.
 
 <!-- page reader=198 pdf=199 -->
 

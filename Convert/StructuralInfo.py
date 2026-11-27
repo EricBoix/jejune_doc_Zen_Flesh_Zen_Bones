@@ -13,6 +13,18 @@ class StructuralInfo(StructuralInfoBase):
     # - "type" can be "illustration" (with an optional "header" boolean flag)
     # - a "chapter_info" can have an optional "illumination_delimiter"
 
+    # The typographic rules of this book (see pdf-to-markdown, docs/). Declared
+    # by the behaviour of the converter before the rules existed: the evidence
+    # for this book is still to be gathered.
+    valid_rules = frozenset(
+        {
+            "LowercaseTailContinues",
+            "UnpunctuatedHeadContinues",
+            "CompleteHeadUppercaseTailStartsParagraph",
+            "ReadingOrderIsLineOrder",
+        }
+    )
+
     class chapter_splitter(ChapterSplitter):
         """Chapter splitter for Zen Flesh, Zen Bones.
 
