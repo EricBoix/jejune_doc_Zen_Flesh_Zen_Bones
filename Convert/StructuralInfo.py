@@ -27,6 +27,8 @@ class StructuralInfo(StructuralInfoBase):
             "BlockquoteRepeatingParagraphIsDropped",
             "NumberedItemStartingAPageIsNotAContinuation",
             "TableRowCutHasEmptyCellAndLowercaseStart",
+            "DiacriticsFoldToBaseLetters",
+            "SmileyGlyphsFoldToAnEmoticon",
         }
     )
 
