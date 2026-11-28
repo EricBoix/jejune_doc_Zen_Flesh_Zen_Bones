@@ -22,6 +22,11 @@ class StructuralInfo(StructuralInfoBase):
             "UnpunctuatedHeadContinues",
             "CompleteHeadUppercaseTailStartsParagraph",
             "ReadingOrderIsLineOrder",
+            "SpacedEllipsisIsAnEllipsis",
+            "LayoutTextCarriesIndentationAndColumns",
+            "BlockquoteRepeatingParagraphIsDropped",
+            "NumberedItemStartingAPageIsNotAContinuation",
+            "TableRowCutHasEmptyCellAndLowercaseStart",
         }
     )
 
